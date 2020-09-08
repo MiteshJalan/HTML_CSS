@@ -5,14 +5,19 @@ html {
 
 /*Navbar Section*/
 #navbar {
+    background-color: #dcdfe2;
     display: grid;
     grid-template-columns: 2fr 70px 50px 50px 50px;
     grid-template-rows: 50px;
     grid-template-areas: 
-    " .  gmail image menu sign-in";
+    " logo  gmail image menu sign-in";
     margin: 0 20px 0 10px;
 }
-
+#logo {
+    grid-area: logo;
+    justify-self: center;
+    align-self: end;
+}
 a, p {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
@@ -68,11 +73,7 @@ a:hover {
     ". google-text .";
 }
 
-#logo {
-    grid-area: logo;
-    justify-self: center;
-    align-self: end;
-}
+
 #search {
     grid-area: search;
     height: 30px;
