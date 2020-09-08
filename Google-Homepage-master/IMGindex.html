@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleimg.css">
     <title>Google</title>
 </head>
 <body>
     <div id="navbar">
-        <a href="IMGindex.html" id="gmail">Images</a>
+        <a href="index.html" id="gmail">Search</a>
         <a href="#" id="image">Advance</a>
         <a href="#" id="menu"><img src="menu.png" height="30px" width="30px"></a>
         <a href="#" id="sign-in">Sign in</a>
     </div>
-    <form action="https://google.com/search/?&tbm=isch" id="main">
-        <a href="#" id="logo"><img src="logo.png"></a>
+    <form method="get" action="http://images.google.com/images" id="main">
+        <a href="#" id="logo"><img src="logoIMG.png"></a>
         <input type="text" id="search" name=q>
         <div id="flexbox">
-            <button type="submit" id="google-search-btn" value="Google Image Search">Google Search</button><button type="submit" id="random-search-btn"  value="I'm Feeling Lucky" name="btnI">I'm Feeling Lucky </button></div>
-        <p id="google-text">Google offered in: <a href="#" id="h">Hindi</a></p>
+            <button type="submit" id="google-search-btn" value="Search Google Images">Google Image Search</button>
+            <!-- <button type="submit" id="random-search-btn"  value="I'm Feeling Lucky" name="btnI">I'm Feeling Lucky </button></div> -->
+            
+        <p id="google-text"><a href="#" id="h"></a></p>
     </form>
     <div id="footer">
         <a href="#" id="advertising">Advertising</a>
