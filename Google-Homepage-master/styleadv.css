@@ -6,7 +6,10 @@ html {
 /*Navbar Section*/
 #navbar {
     white-space: nowrap;
-    background-color: #f1f1f1;;
+    background-color: #f1f1f1;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: 1.7fr 70px 50px 50px 50px;
     grid-template-rows: 50px;
