@@ -2,10 +2,6 @@ html {
     height: 100%;
     width: 100%;
 }
-.header {
-  background:rgb(163, 163, 163);
-
-}
 
 /*Navbar Section*/
 #navbar {
@@ -15,7 +11,7 @@ html {
     grid-template-rows: 50px;
     grid-template-areas: 
     " logo  gmail image menu sign-in";
-    margin: 0 20px 0 10px;
+    margin: 0px 0px 0px 0px;
 }
 #logo {
     position: absolute;
@@ -61,7 +57,7 @@ a:hover {
     align-self: center;
     background-color: #4683ea;
     height: 30px;
-    width: 65px;
+    width: 55px;
     line-height: 30px;
     text-align: centeR;
     color: white;
