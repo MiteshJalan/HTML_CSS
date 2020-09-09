@@ -2,14 +2,14 @@ html {
     height: 100%;
     width: 100%;
 }
+.header {
+  background:rgb(163, 163, 163);
+
+}
 
 /*Navbar Section*/
 #navbar {
     white-space: nowrap;
-    background-color: #f1f1f1;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
     display: grid;
     grid-template-columns: 1.7fr 70px 50px 50px 50px;
     grid-template-rows: 50px;
@@ -112,8 +112,9 @@ a:hover {
 }
 #google-search-btn {
     border: none;
+    background: #4285f4;
     font-size: 15px;
-    color: #5F6368;
+    color:rgb(255, 255, 255) ;
     margin-right: 25px;
     padding: 7px 15px 7px 15px;
     border-radius: 3px;
